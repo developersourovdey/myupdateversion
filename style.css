@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    
+}
+.full_of_body{
+    width: 100%;
+    height: 48.1rem;
+    background-image: url(img/back-net.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    overflow: hidden;
+    
+}
+.main_sape {
+    width: 80%;
+    height: 35rem;
+    background-image: url(img/wallpapersden.com_netflix-space-sweepers_1920x1080.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+    margin-top: 50px;
+    box-shadow: -3px 5px 8px red, 7px -4px 8px red;
+    border-radius: 10px;
+}
+.over_lay{
+    width: 100%;
+    height: 35rem;
+    background-color: #0000007a;
+    /* position: absolute;
+    top: 0; */
+    border-radius: 10px;
+}
+.menuber{
+    width: 85%;
+    margin: auto;
+}
+.menu_left{
+    float: left;
+}
+.menu_left img {
+    width: 100%;
+    height: 25px;
+    margin-top: 20px;
+}
+.menu_right {
+    float: right;
+    margin-top: 13px;
+}
+.margin_border{
+    width: 100%;
+    height: 5px;
+    background-color: red;
+}
+.menu_right ul li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 25px;
+}
+.menu_right ul li{
+    list-style: none;
+    float: left;
+}
+.menu_right ul li a button {
+    padding: 7px 12px;
+    border-radius: 20px;
+    color: white;
+    background: red;
+    border: none;
+    margin-top: -5px;
+    box-shadow: -1px 0px 8px red, -2px 0px 8px red;
+}
+.body_of_main_sape{
+     position: absolute;
+     bottom: 40px;
+     color: white;
+}
+.text_of_main_sape{
+    width: 40%;
+    height: auto;
+}
+.star ul li{
+    list-style: none;
+    float: left;
+    color: yellow;
+}
+.star ul {
+    margin: 0;
+    padding: 0;
+}
+.drec1{
+    color: yellowgreen;
+}
+.lorem{
+    color: #fffcfc9e;
+    margin-bottom: 10px;
+}
+button.btn_1 {
+    padding: 11px 28px;
+    border-radius: 22px;
+    border: none;
+    color: white;
+    background: red;
+    box-shadow: -1px 0px 8px red, -2px 0px 8px red;
+}
+button.btn_2 {
+    padding: 11px 28px;
+    border-radius: 22px;
+    border: none;
+    color: white;
+    background: #7971e5;
+    box-shadow: -1px 0px 8px #7971e5, -2px 0px 8px #7971e5;
+}
+.bad_time h1 {
+    margin-bottom: 5px;
+}
+.director p {
+    margin-bottom: 5px;
+}
+.star {
+    margin-bottom: 40px;
+}
